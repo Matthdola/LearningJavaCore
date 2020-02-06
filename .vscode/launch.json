@@ -1,0 +1,125 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InstanceCounterTester<datastructure-and-algo-project_e906c1d0>",
+            "request": "launch",
+            "mainClass": "InstanceCounterTester",
+            "projectName": "datastructure-and-algo-project_e906c1d0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JavaExam<datastructure-and-algo-project_e906c1d0>",
+            "request": "launch",
+            "mainClass": "JavaExam",
+            "projectName": "datastructure-and-algo-project_e906c1d0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestException<datastructure-and-algo-project_e906c1d0>",
+            "request": "launch",
+            "mainClass": "TestException",
+            "projectName": "datastructure-and-algo-project_e906c1d0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestLinkedList<datastructure-and-algo-project_e906c1d0>",
+            "request": "launch",
+            "mainClass": "TestLinkedList",
+            "projectName": "datastructure-and-algo-project_e906c1d0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BigIntegerTest<datastructure-and-algo-project_e906c1d0>",
+            "request": "launch",
+            "mainClass": "javabasic.BigIntegerTest",
+            "projectName": "datastructure-and-algo-project_e906c1d0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CompoundInterest<datastructure-and-algo-project_e906c1d0>",
+            "request": "launch",
+            "mainClass": "javabasic.CompoundInterest",
+            "projectName": "datastructure-and-algo-project_e906c1d0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FirstSample<datastructure-and-algo-project_e906c1d0>",
+            "request": "launch",
+            "mainClass": "javabasic.FirstSample",
+            "projectName": "datastructure-and-algo-project_e906c1d0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LotteryArray<datastructure-and-algo-project_e906c1d0>",
+            "request": "launch",
+            "mainClass": "javabasic.LotteryArray",
+            "projectName": "datastructure-and-algo-project_e906c1d0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LotteryDrawing<datastructure-and-algo-project_e906c1d0>",
+            "request": "launch",
+            "mainClass": "javabasic.LotteryDrawing",
+            "projectName": "datastructure-and-algo-project_e906c1d0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CalendarTest<datastructure-and-algo-project_e906c1d0>",
+            "request": "launch",
+            "mainClass": "javapoo.CalendarTest",
+            "projectName": "datastructure-and-algo-project_e906c1d0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EmployeeTest<datastructure-and-algo-project_e906c1d0>",
+            "request": "launch",
+            "mainClass": "javapoo.EmployeeTest",
+            "projectName": "datastructure-and-algo-project_e906c1d0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<datastructure-and-algo-project_e906c1d0>",
+            "request": "launch",
+            "mainClass": "javapoo.Test",
+            "projectName": "datastructure-and-algo-project_e906c1d0"
+        }
+    ]
+}
